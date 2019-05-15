@@ -1,5 +1,62 @@
+@import 'palittre';
+@import 'fonts';
+
 .header {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
     height: 101px;
-    background: red;
+    background: $bc-color-1;
+    border-bottom: 1px solid #707070;
+
+    .container {
+        display: flex;
+        width: 1219px;
+        align-items: center;
+        justify-content: space-between;
+        top: 25%;
+
+        .logo {
+            display: flex;
+            height: 50px;
+            margin-left: 27px;
+            flex-shrink: 0;
+
+            img {
+                width: 28px;
+                height: 41px;
+            }
+
+            h1 {
+                color: $color-1;
+                font-family: $font-1;
+                font-weight: 300;
+                font-size: 36px;
+                line-height: 21.36px;
+                margin-top: 17px;
+            }
+        }
+
+        nav {
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style: none;
+            margin-right: 14px;
+
+            a {
+                text-decoration: none;
+                font-family: $font-2;
+                font-size: 14px;
+                line-height: 21.36px;
+                margin-left: 28px;
+                margin-right: 8px;
+                color: #FFFFFF;
+            }
+        }
+
+        .hide {
+            display: none;
+        }
+    }
 }

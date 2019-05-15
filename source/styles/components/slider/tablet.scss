@@ -1,0 +1,59 @@
+img {
+    position: relative;
+}
+
+.slider {
+    height: 593.51px;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+    .Maintext {
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+
+        h2 {
+            font-size: 58.81px;
+            line-height: 70.57px;
+            color: $color-1;
+        }
+
+        h1 {
+            font-size: 71.77px;
+            font-weight: bold;
+            line-height: 86.12px;
+            word-spacing: -4;
+            color: $color-1;
+        }
+
+        h5 {
+            font-family: $font-1;
+            font-size: 18.94px;
+            font-weight: 300;
+            line-height: 22.73px;
+            word-spacing: -4;
+            color: $color-1;
+        }
+
+        a {
+            width: 144px;
+            height: 44px;
+            font-family: $font-1;
+        }
+    }
+    img {
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+}
+

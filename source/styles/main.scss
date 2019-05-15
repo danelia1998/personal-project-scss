@@ -1,79 +1,12 @@
 @import 'media-queries';
 @import 'components/header/index.scss';
-$bc-color-1: #000000;
-$color-1:#ffffff;
+@import 'components/slider/index.scss';
+@import 'components/aboutus/index.scss';
+@import 'palittre';
+@import 'fonts';
 
-$font-1: 'Raleway', sans-serif;
-$font-2: 'Open Sans', sans-serif;
-$font-3: 'Montserrat', sans-serif;
-    
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.MainContainer{
-    background-color: $bc-color-1;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-
-    .header {
-        opacity: 0.8;
-        display: flex;
-        justify-content: center;
-        width: 1222px;
-        position: relative;
-
-        .container {
-            display: flex;
-            width: 100%;
-            align-items: center;
-            top: 25%;
-            position: absolute;
-        
-            .logo {
-                display: flex;
-                height: 50px;
-                margin-right: 310px;
-                flex-shrink: 0;
-
-                img {
-                    width: 28px;
-                    height: 41px;
-                }
-
-                h1 {
-                    color: $color-1;
-                    font-family: $font-1;
-                    font-weight: 300;
-                    font-size: 36px;
-                    line-height: 21.36px;
-                    margin-top: 17px;
-                }
-            }
-            nav {
-                margin-bottom: 8px;
-
-                ul {
-                    list-style: none;
-                    display: flex;
-                    align-items: center;
-    
-                    li {
-                    margin-right: 40px;
-    
-                        a {
-                            text-decoration: none;
-                            font-family: $font-2;
-                            font-size: 14px;
-                            line-height: 21.36px;
-                            color: $color-1
-                        }               
-                    }
-                }
-            }
-        }   
-    }     
-}
-
