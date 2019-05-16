@@ -34,7 +34,28 @@
                 padding-bottom: 15px;
                 }
 
+                .feature {
+                    
+                    div {
+                        width: 544.96px;
+                    }
+
+                    div h3{
+                        display: none;
+                    }
+
+                    div::before {
+                        padding-bottom: 10px;
+                        content: url('../../../images/aboutus/Check\ Icon.png');
+                    }
+
+                }
+
                 .one {
+
+                    h6 {
+                        display: block;
+                    }
 
                     div::before {
                         content: url('../../../images/aboutus/Check\ Icon.png');
@@ -56,10 +77,29 @@
                 }
     
                 .four {
-    
-                    div::before {
-                        content: url('../../../images/aboutus/Check\ Icon.png');
+                    div::before{
+                        content: "READ MORE";
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-align: center;
+                        padding-top: 6px;
+                        padding-bottom: 0px;
+                        justify-content: center;
+                        line-height: 34px;
+                        word-spacing: 4px;
+                        color: $color-1;
+                        width: 138px;
+                        height: 42px;
+                        background-color: $bgc-color-1;
                     }
+
+                    div h3, div h6 {
+                        display: none;
+                    }
+
+                    // div::before {
+                    //     content: url('../../../images/aboutus/Check\ Icon.png');
+                    // }
                 }
             }
         }
