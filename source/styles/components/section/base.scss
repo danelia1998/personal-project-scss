@@ -103,9 +103,16 @@
 
             .maincontainer {
                 display: grid;
-                grid-template-columns: 256.5px 256.5px;
+                grid-template-columns: 287.5px 256.5px;
                 grid-template-rows: 90px 90px;
-                grid-gap: 12px;
+                grid-gap: 34px;
+
+                .one {
+                    padding-left: 13px;
+                }
+                .three {
+                    padding-left: 14px;
+                }
 
                 .feature {
 

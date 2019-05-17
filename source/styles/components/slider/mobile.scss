@@ -42,13 +42,15 @@
         }
 
         a {
-            width: 64px;
-            height: 19px;
+            width: 59px;
+            height: 15px;        
             font-family: $font-1;
             border: 1px solid $color-1 ;
             outline: 2px solid $bgc-color-1;
             font-size: 7px;
             line-height: 13.77px;
+            left: 40%;
+            margin-top: 9px;
         }
     }
     img {

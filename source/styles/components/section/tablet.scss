@@ -1,14 +1,15 @@
 
 .section {
     height: auto;
+    padding-top: 66px;
 
     .container {
 
         .whoweare {
-            display: flex;
             justify-content: center;
             margin-bottom: 50px;
             padding-right: 0;
+            margin-bottom: 30px;
         }
 
         .aboutusgrid {
@@ -23,15 +24,24 @@
 
             .somewords {
 
+                h5 {
+                    margin: -14px;
+                    padding-top: 26px;
+                    line-height: 23px;
+                    padding-bottom: 55px;
+                }
+
                 .maincontainer {
                     display: grid;
                     grid-template-columns: 100%;
-                    grid-template-rows: 90px 90px 90px 90px;
+                    grid-template-rows: 55px 55px 72px 119px;
+                    grid-gap: 10px;
                 }
 
                 h2 {
                 border-bottom: 1px solid $bc-color-1;
                 padding-bottom: 15px;
+                word-spacing: 5px;
                 }
 
                 .feature {
@@ -55,6 +65,7 @@
                 }
 
                 .one {
+                    padding-left: 0px;
 
                     h6 {
                         display: block;
@@ -81,6 +92,7 @@
                 }
 
                 .three {
+                    padding-left: 0px;
 
                     div::before {
                         content: "";

@@ -1,12 +1,30 @@
 .footer {
     height: 1287px;
-}
+    padding-bottom: 65px;
+    padding-top: 74px;
 
-.eachcont {
-    flex-direction: column;
-    align-items: center;
+    .wrapper {
 
-    .service {
-        width: 295px;
+        .serviceshead {
+            margin-bottom: 51px;
+        }
+
+        .eachcont {
+            flex-direction: column;
+            align-items: center;
+
+            .first {
+                margin-right: 0;
+            }
+
+            .third {
+                margin-left: 0;
+            }
+
+            .service {
+                width: 295px;
+                padding-bottom: 65px;
+            }
+        }
     }
 }

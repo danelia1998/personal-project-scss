@@ -1,20 +1,45 @@
 
 .footer {
     height: 1145px;
+    padding-top: 36px;
+
+    .serviceshead {
+        margin-bottom: 41px;
+    }
 
     .eachcont {
         flex-direction: column;
         align-items: center;
 
+        .first {
+            margin-right: 0;
+        }
+
+        .third {
+            margin-left: 0;
+            padding-top: 28px;
+        }
+
+        .second {
+            margin-bottom: 2px;
+            padding-top: 31px;
+        }
+
         .service {
             width: 280px;
 
             h2 {
+                padding-bottom: 2px;
                 font-size: 19px;
             }
 
             h4 {
                 font-size: 13px;
+            }
+
+            .img {
+                margin: 6px;
+                padding-bottom: 23px;
             }
         }
     }

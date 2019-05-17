@@ -78,10 +78,15 @@
 
             .img {
                 margin: 10px;
+                padding-bottom: 21px;
+
+                &:hover {
+                    content: url('/images/footer/hover.png')
+                }
             }
 
             h2 {
-
+                padding-bottom: 4px;
                 font-family: $font-1;
                 font-size: 20px;
                 font-weight: bold;
@@ -98,6 +103,13 @@
                 color: $color-1;
                 text-align: center;
             }
+        }
+        .first {
+            margin-right: 134px;
+        }
+
+        .third {
+            margin-left: 124px;
         }
     }
 
