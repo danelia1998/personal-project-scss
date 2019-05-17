@@ -1,9 +1,6 @@
 .slider {
-
-    padding: 20px;
     height: 212px;
     background-color: #000000;
-    opacity: 0.6;
     overflow: hidden;
 
     .left {
@@ -14,10 +11,11 @@
         display: none;
     }
 
-    .Maintext {
+    .maintext {
         justify-content: center;
         text-align: center;
         position: absolute;
+        padding-left: 1px;
         top: 20%;
 
         h2 {
@@ -52,5 +50,11 @@
             font-size: 7px;
             line-height: 13.77px;
         }
+    }
+    img {
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: absolute;
     }
 }

@@ -1,14 +1,14 @@
 @import 'palittre';
 @import 'fonts';
 
-.serv {
+.footer {
     display: flex;
     justify-content: center;
     padding: 20px;
-    padding-top: 105px;
     overflow: hidden;
     height: 785px;
     background-color: $bc-color-1;
+    padding-top: 141px;
 
     .wrapper {
         width: 1190px;
@@ -16,13 +16,42 @@
 
     .serviceshead {
         text-align: center;
-        margin-bottom: 98px;
+        margin-bottom: 131px;
         position: relative;
 
         img {
             position: absolute;
             top: 30px;
             background: rgb(0, 0, 0);
+        }
+
+        div {
+            position: relative;
+            display: block;
+            margin-top: 4px;
+
+            &::before {
+                content: '';
+                display: block;
+                height: 2px;
+                position: absolute;
+                width: 100px;
+                left: 50% ;
+                transform: translate(-50%, 50%);
+                background-color: $color-before;
+                top: 10px;
+                margin: auto;
+            }
+
+            &::after {
+                width: 10px;
+                position: relative;
+                height: 10px;
+                align-self: center;
+                content: url('/images/footer/services.png');
+                background-color: $bc-color-1;
+                padding: 0px 5px;
+            }
         }
 
         h3 {
@@ -34,19 +63,7 @@
             span {
                 color: $bgc-color-1;
             }
-
-            &::after {
-                content: '';
-                display: block;
-                height: 2px;
-                width: 100px;
-                background-color: #D3D3D3;
-                top: 10px;
-                margin: auto;
-                
-            }
         }
-
     }
 
     .eachcont {
@@ -83,4 +100,22 @@
             }
         }
     }
+
+    // .first {
+    //     img {
+    //         padding-bottom: 22px;
+    //         padding-left: 23px;
+    //     }
+
+    //     h2 {
+    //         padding-left: 25px;
+    //         padding-bottom: 4px;
+    //     }
+
+    //     h4 {
+    //         width: 295px;
+    //         padding-left: 20px;
+    //         word-spacing: 1px;
+    //     }
+    // }
 }

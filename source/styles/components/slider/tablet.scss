@@ -1,6 +1,3 @@
-img {
-    position: relative;
-}
 
 .slider {
     height: 593.51px;
@@ -15,7 +12,8 @@ img {
     .right {
         display: none;
     }
-    .Maintext {
+    
+    .maintext {
         justify-content: center;
         text-align: center;
         position: absolute;
@@ -50,10 +48,11 @@ img {
             font-family: $font-1;
         }
     }
+
     img {
         background-size:cover;
         background-repeat: no-repeat;
         object-fit: cover;
+        position: absolute;
     }
 }
-

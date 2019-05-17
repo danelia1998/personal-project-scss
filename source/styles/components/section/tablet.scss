@@ -1,5 +1,5 @@
 
-.aboutus {
+.section {
     height: auto;
 
     .container {
@@ -18,7 +18,7 @@
             flex-direction: column;
 
             .image {
-                    margin-right: 0;
+                margin-right: 0;
             }
 
             .somewords {
@@ -30,12 +30,12 @@
                 }
 
                 h2 {
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid $bc-color-1;
                 padding-bottom: 15px;
                 }
 
                 .feature {
-                    
+
                     div {
                         width: 544.96px;
                     }
@@ -46,9 +46,12 @@
 
                     div::before {
                         padding-bottom: 10px;
-                        content: url('../../../images/aboutus/Check\ Icon.png');
+                        content: "";
+                        background-repeat: no-repeat;
+                        background-image: url('/images/section/checkicon.png');
+                        width: 22px;
+                        height: 45px;
                     }
-
                 }
 
                 .one {
@@ -58,24 +61,36 @@
                     }
 
                     div::before {
-                        content: url('../../../images/aboutus/Check\ Icon.png');
+                        content: "";
+                        background-repeat: no-repeat;
+                        background-image: url('/images/section/checkicon.png');
+                        width: 22px;
+                        height: 45px;
                     }
                 }
-    
+
                 .two {
-    
+
                     div::before {
-                        content: url('../../../images/aboutus/Check\ Icon.png');
+                        content: "";
+                        background-repeat: no-repeat;
+                        background-image: url('/images/section/checkicon.png');
+                        width: 22px;
+                        height: 45px;
                     }
                 }
-    
+
                 .three {
-    
+
                     div::before {
-                        content: url('../../../images/aboutus/Check\ Icon.png');
+                        content: "";
+                        background-repeat: no-repeat;
+                        background-image: url('/images/section/checkicon.png');
+                        width: 22px;
+                        height: 45px;
                     }
                 }
-    
+
                 .four {
                     div::before{
                         content: "READ MORE";
@@ -96,10 +111,6 @@
                     div h3, div h6 {
                         display: none;
                     }
-
-                    // div::before {
-                    //     content: url('../../../images/aboutus/Check\ Icon.png');
-                    // }
                 }
             }
         }

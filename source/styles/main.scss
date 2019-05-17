@@ -1,14 +1,9 @@
 @import 'reset';
+@import 'base';
 @import 'media-queries';
-@import 'components/header/index.scss';
-@import 'components/slider/index.scss';
-@import 'components/aboutus/index.scss';
-@import 'components/serv/index.scss';
 @import 'palittre';
 @import 'fonts';
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import 'components/header/index.scss';
+@import 'components/slider/index.scss';
+@import 'components/section/index.scss';
+@import 'components/footer/index.scss';
